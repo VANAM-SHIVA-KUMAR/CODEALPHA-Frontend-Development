@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.player {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.music-info {
+    margin-bottom: 20px;
+}
+
+.music-info h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.music-info p {
+    font-size: 1em;
+    margin: 5px 0 0;
+    color: #ccc;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.control-button {
+    background-color: #444;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+    background-color: #555;
+}
+
+.control-button:focus {
+    outline: none;
+}
+
+#progress-container {
+    background: #555;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 5px;
+    margin: 15px 0;
+    width: 100%;
+}
+
+#progress {
+    background: #61dafb;
+    border-radius: 5px;
+    height: 100%;
+    width: 0;
+}
